@@ -6,7 +6,6 @@ import "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 
-
 /// @title UniV2TwapOracle Contract
 /// @dev Fixed window oracle that recomputes the average price for the entire period once every period
 /// Note that the price average is only guaranteed to be over at least 1 period, but may be over a longer period

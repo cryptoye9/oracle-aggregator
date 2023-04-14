@@ -2,7 +2,6 @@
 pragma solidity 0.7.6;
 
 import "./base/BaseOracle.sol";
-
 import "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol";
 import "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol";
 import "@uniswap/lib/contracts/libraries/FixedPoint.sol";
